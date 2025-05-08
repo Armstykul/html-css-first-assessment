@@ -1,0 +1,91 @@
+* {
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+}
+
+h1 {
+ text-align: center;
+}
+
+h1.thin {
+ font-weight: 400;
+}
+
+.container {
+ padding: 72px;
+ font-family: "Open Sans", sans-serif;
+}
+
+.secondary-text {
+ font-weight: 700;
+}
+
+.box-container {
+ display: flex;
+ gap: 30px;
+ align-items: center;
+ margin-top: 50px;
+}
+
+.box {
+ width: 400px;
+ height: 300px;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+  rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+ border-radius: 12px;
+}
+
+.middle-boxes {
+ display: flex;
+ flex-direction: column;
+ gap: 30px;
+}
+
+.box .box-outline {
+ height: 5px;
+ border-top-right-radius: 12px;
+ border-top-left-radius: 12px;
+}
+
+.box img {
+ margin-left: auto;
+ display: flex;
+ padding-right: 26px;
+ margin-top: 75px;
+}
+
+.box .box-outline.one {
+ background-color: skyblue;
+}
+
+.box .box-outline.two {
+ background-color: red;
+}
+
+.box .box-outline.three {
+ background-color: orange;
+}
+
+.box .box-outline.four {
+ background-color: blue;
+}
+
+.box-items-wrapper {
+ padding: 26px;
+}
+
+.box-title {
+ font-size: 20px;
+ font-weight: 600;
+}
+
+.box-content {
+ color: rgb(40, 39, 44);
+}
